@@ -1,0 +1,13 @@
+server:
+  port: 8090
+  ssl:
+    enabled: true
+    key-store: classpath:nt-gateway.jks
+    key-alias: nt-gateway
+    key-store-password: changeit
+    key-store-provider: SUN
+    key-store-type: JKS
+    trust-store: classpath:nt-gateway.jks
+    trust-store-password: changeit
+    trust-store-type: JKS
+    client-auth: want
